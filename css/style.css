@@ -1,0 +1,92 @@
+
+:root  {
+    font-size: 16px
+}
+body {
+    background-color: white;
+}
+
+main {
+    margin-top: 60rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+mark {
+    background-color: rgb(251, 6, 6);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: auto;
+}
+
+.header { 
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar { 
+    background-color: rgb(251, 6, 6);
+    height: auto;
+
+       }
+
+.navbar-nav {
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+}
+
+.row {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+margin-top: 4rem;
+margin-bottom: 2rem;
+}
+
+.col {
+    text-align: left;
+    }
+
+.btn {
+    text-align: left;
+    }
+
+.page-topping { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/cordonnier.jpg");
+    }
